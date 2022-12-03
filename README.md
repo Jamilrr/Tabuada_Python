@@ -11,3 +11,10 @@ print('{} x {} = {}'.format(num, 7, numx7))<br>
 print('{} x {} = {}'.format(num, 8, numx8))<br>
 print('{} x {} = {}'.format(num, 9, numx9))<br>
 print('{} x {} = {}'.format(num, 10, numx10))<br>
+
+
+# Outra maneira de fazer a tabuada 
+
+num = int(input('Digite um número: '))<br>
+for c in range (1,11):<br>
+    print('{} x {:2} = {}'.format(num, c, num*c))<br>
